@@ -17,6 +17,7 @@ function showCovers(res) {
     coverList.forEach(cover => {
         console.log(cover)
         const coverDiv = document.createElement('div')
+        coverDiv.id = cover.id
         coverDiv.innerText = `$${cover.price}, ${cover.phoneSize}, ${cover.color}, ${cover.material}`
         viewCovers.appendChild(coverDiv)
     })
