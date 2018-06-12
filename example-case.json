@@ -1,0 +1,14 @@
+{
+    "size": ["normal",
+        "plus"
+    ],
+    "material": [
+        "soft",
+        "hard"
+    ],
+    "color": "",
+    "price": [
+        10000,
+        20000
+    ]
+}
