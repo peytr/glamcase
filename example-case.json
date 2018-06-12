@@ -1,14 +1,20 @@
-{
-    "size": ["normal",
-        "plus"
-    ],
-    "material": [
-        "soft",
-        "hard"
-    ],
-    "color": "",
-    "price": [
-        10000,
-        20000
-    ]
-}
+[
+    {
+        "phoneSize": "plus",
+        "material":  "soft",
+        "color": "",
+        "price": 20000
+    },
+    {
+        "phoneSize": "normal",
+        "material":  "hard",
+        "color": "",
+        "price": 10000
+    },
+    {
+        "phoneSize": "plus",
+        "material":  "hard",
+        "color": "",
+        "price": 20000
+    }
+]
