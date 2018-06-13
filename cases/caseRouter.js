@@ -16,18 +16,18 @@ router.get('/', (req, res) => {
 router.get('/:id', async (req, res) => {
     const id = req.params.id
     try {
-        const phoneCase = await Case.find(id)
-        res.status(200).json(phoneCase)
+        const newCover = await Case.find(id)
+        res.status(200).json(newCover)
     } catch(err) {
         res.status(500).json(err)
     }
 })
 
 router.post('/', (req, res) => {
-    const phoneCase = new Case(req.body)
-    phoneCase.save()
+    const newCover = new Case(req.body)
+    newCover.save()
     .then(() =>  {
-        res.status(201).json(phoneCase)
+        res.status(201).json(newCover)
     })
     .catch(err => {
         res.status(500).json({err: err.message})
