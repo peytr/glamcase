@@ -13,12 +13,26 @@
     <header>
         <h1>GLAMCASE DESIGNS</h1>
     </header>
+    <div class="add-case">
         <h2>Create your custom case</h2>
         <p>Select from the following options to generate your own iPhone cover.</p>
+        <form>
+            <select name="coverSize">
+                <option value="standard">Standard</option>
+                <option value="plus">Plus</option>
+            </select>
+            <select name="coverMaterial">
+                <option value="hard">Hard</option>
+                <option value="soft">Soft</option>
+            </select>
+            <input type="color" name="coverColor">
+            <input type="submit" id="postButton">
+        </form>
+    </div> 
     <div id="table"></div>
         <th></th>
 
-    <span></span>
+    <span class="display-cases"></span>
         
 </div>
 </body>

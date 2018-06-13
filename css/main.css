@@ -1,11 +1,23 @@
 
 
 body{
-    width: auto;
-    height: 400px;
-    background-color: azure;
+    margin: 0% 10%;
+    height: auto;
+    /* background-color: azure; */
+    text-align: center;
 }
 
 h1{
     color: chocolate;
+}
+
+.add-case {
+    margin: 50px 0px;
+}
+
+.cover {
+    display: flex;
+    padding: 20px;
+    margin: 5px;
+    background-color: antiquewhite;
 }
